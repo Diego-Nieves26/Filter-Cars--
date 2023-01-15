@@ -21,7 +21,7 @@ Esta aplicacion filtra diversos autos por sus caracteristicas.
 - HTML
 - CSS
 - JS
-. JSON
+- JSON
 
 ## Autor
 
