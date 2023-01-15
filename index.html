@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <title>Filtro de vehiculos</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Filtro de vehiculos</h1>
+    <div class="root">
+      <section>
+        <div class="selectContainer">
+          <label for="tag">ETIQUETAS</label>
+          <select id="tag"></select>
+        </div>
+        <div class="selectContainer">
+          <label for="valueTag">VALOR</label>
+          <input type="text" id="valueTag" />
+        </div>
+        <button onclick="addTag()">Agregar</button>
+        <div class="tagsContainer" id="tags"></div>
+        <p>
+          <span id="count"></span>
+          autos filtrados
+        </p>
+      </section>
+      <div class="container2">
+        <h2>Resultados</h2>
+        <div id="result"></div>
+        <button onclick="changePage()">Mas</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
