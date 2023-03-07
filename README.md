@@ -1,6 +1,6 @@
 # Fiter Cars
 <div align="center" width="50">
-    <img src="./img/bg.png" width="75%"/>
+    <img src="./images/bg.png" width="75%"/>
 </div><br/>
 
 ## Decripcion
